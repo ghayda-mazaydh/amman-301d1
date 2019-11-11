@@ -197,8 +197,21 @@ console.log(joe.scopeArrow());
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked? 
-//
+// Answer
+// current rendition ,The methods will change the value of this in functions. instance the copy of the Reference that points to object at a point of time. Refrence is a variable that points the objects.
+//undefined value from inside the scope of the scope method
+
+
+
 // 2. What is "this" when joe.scopeArrow() is invoked?
-//
+// Answer
+// you will get own version, The methods will change the value of this in functions.
+
+
+
+
 // 3. Explain why "this" is different when an arrow function is used.
-//
+// Answer
+// the this keyword works differently in arrow functions. The methods will not change the value of this in arrow functions.
+// (In fact, the value of this inside a function simply can’t be changed; it will be the same value as when the function was called.)
+ 
